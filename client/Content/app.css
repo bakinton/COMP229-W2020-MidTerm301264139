@@ -1,0 +1,244 @@
+
+/*Name: Blessing Akintonde
+ Student number: 301264139
+ Course code: COMP 229
+ Course name: Web Application Development*/
+
+/* Custom CSS goes here */
+
+
+@media (min-width: 992px){
+  .navbar{
+     
+    
+     background-size: cover;
+     background-position: center;
+     box-shadow: 0px 2px 5px #777;
+     text-align: center;
+   
+  }
+
+
+
+body {
+  padding-bottom: 100px;
+
+  }
+
+  .display-6{
+    font-size: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(3, 63, 71, 0.9), rgba(3, 63, 71, 0.9));
+    color: antiquewhite;
+    height: 50px;
+    width: 280vh;
+    align-items: center;
+}
+
+
+.navbar{
+  box-shadow: 0px 2px 5px #777;
+
+}
+
+
+.content-box {
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+
+ .nav-link{
+  font-weight: 80;
+  text-transform: uppercase;
+  color: #fff !important;
+}
+.active{
+  font-size: 18px;
+}
+
+ .active:hover{
+  color: var(--color-brand) !important;
+}
+
+.content-box h4{
+  font-size: 30px;  
+}
+.content-box h1{
+font-size: 70px;
+
+}
+
+.about li a{
+  color: #000;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 30px;
+  border: 2px solid  #d4d4d4;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: 0.5s all;
+  text-align: center;
+ }
+ 
+ .about li a:hover{
+  color: #ee8683;
+ }
+ 
+ header{
+  height: 100vh;
+  width: 150vh;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Assets/images/pexels-element-digital-1370295.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.header-content{
+  height: 100vh;  
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+ }
+
+/*check from here*/
+
+.navbar .nav-link{
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #fff !important;
+}
+
+.navbar .nav-link:hover{
+  color: var(--color-brand) !important;
+}
+
+
+.navbar .navbar-brand{
+  text-transform:uppercase;
+  color: whitesmoke;
+
+}
+
+.nav-item{
+  font-size: 22px;
+}
+
+.navbar-nav{
+  color: bisque;
+}
+
+.display-6{
+  font-size: 18px;
+  text-align: center;
+}
+
+.h3 img{
+  border: 8px solid;
+ 
+}
+
+#content-wrapper{
+  padding-left: var(--sidbar-width);
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+nav.r-nav.stickyadd{
+background: #fff !important;  
+padding: 15px 0;
+box-shadow: 0 1px 8px 3px rbga(0,0,0,0.05);
+transition: .5s all ease-in-out;
+}
+
+nav.stickyadd .navbar .navbar-brand{
+  color: #000;
+  font-size: 30px;
+  transition: .5s all;
+}
+
+nav.stickyadd .navbar .nav-link{
+  color: purple;
+}
+
+.navbar .hamburger{
+color: #fff;  
+}
+
+nav.stickyadd .hamburger{
+  color: #000;
+}
+
+
+
+.header-content{
+height: 100vh;  
+display: flex; 
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.content-box{
+max-width: 800px;
+color: #fff;   
+}
+
+.content-box h4{
+font-size: 30px;  
+}
+.content-box h1{
+font-size: 52px;
+
+}
+
+.content-box a{
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px 25px;
+}
+
+.content-box a:hover{
+ color: #000; 
+ background: #fff;
+ transition: 0.5s all;
+}
+
+.content-box p{
+  color: #fff;
+}
+
+.about li a{
+color: #000;
+display: inline-block;
+height: 42px;
+width: 42px;
+font-size: 30px;
+border: 2px solid  #d4d4d4;
+border-radius: 50%;
+line-height: 40px;
+transition: 0.5s all;
+text-align: center;
+}
+
+.homie{
+  color: rgb(164, 146, 181);
+  font-size:45px;
+  font-style:italic;
+  font-weight: 500;
+}
+.navbar-text{
+text-align: center;
+}
+
+}
